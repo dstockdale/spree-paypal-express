@@ -1,7 +1,3 @@
-#require File.dirname(__FILE__) + '/paypal/paypal_common_api'
-#require File.dirname(__FILE__) + '/paypal/paypal_express_response'
-#require File.dirname(__FILE__) + '/paypal_express_common'
-
 module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
     class PaypalExpressGateway < Gateway
